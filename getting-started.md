@@ -1,32 +1,21 @@
-# Getting Started with Copilot Workspace
+# Copilot Workspaceの使い方
 
-Welcome to the technical preview for Copilot Workspace! 👋 In order to help you get started, here are a few potential things you can try out:
+Copilot Workspaceの技術プレビューへようこそ！👋 ここでは、いくつかの試してみるべきことを紹介します：
 
-1. __Open an issue in a GitHub repo, and click the “Open in Workspace” button.__ This will start a new Copilot Workspace 
-   session, pre-seeded with the issue as the task, and allow you to iterate on the spec/plan/implementation for it
+1. __GitHubリポジトリで問題を開き、「Open in Workspace」ボタンをクリックします。__ これにより、新しいCopilot Workspaceセッションが開始され、タスクとして問題が事前に設定され、仕様/計画/実装を繰り返すことができます。
 
    <img src="images/general/open-in-workspace.png" width=800 alt="Open an issue in Copilot Workspace">
 
-1. __Open the integrated terminal__ in order to build/test/run your changes. You can do this by clicking the terminal icon
-   in the header bar, or clicking the “Open terminal” button in the “Implementation” panel (after you’ve started 
-   implementing a task).
+1. __統合ターミナルを開きます。__ これにより、変更をビルド/テスト/実行できます。ヘッダーバーのターミナルアイコンをクリックするか、「Implementation」パネルの「Open terminal」ボタンをクリックします（タスクの実装を開始した後）。
 
-1. __Share a session snapshot with someone__ by clicking the share button in the upper-right section of the header bar, and sending them the URL. Note that anyone with access to the repository can view a read-only version of the snapshot. But if you send a link to someone else in the preview, they'll be able to fork your session, in order to explore it further. 
+1. __セッションスナップショットを共有します。__ ヘッダーバーの右上にある共有ボタンをクリックし、URLを送信します。リポジトリにアクセスできる人は誰でもスナップショットの読み取り専用バージョンを表示できます。ただし、プレビューに参加している他の人にリンクを送信すると、セッションをフォークしてさらに探索できます。
 
-1. __Install the GitHub mobile app__ on your phone and open an issue from there by clicking the “...” menu and selecting 
-   “Open in Workspace”. Note that the mobile web client for Copilot Workspace is optimized for mobile usage. And since your 
-   sessions/edits are automatically saved, you can start a task on your phone and resume it on your desktop.
+1. __GitHubモバイルアプリをインストールします。__ 携帯電話にインストールし、「...」メニューをクリックして「Open in Workspace」を選択して問題を開きます。Copilot Workspaceのモバイルウェブクライアントはモバイル使用に最適化されています。セッション/編集は自動的に保存されるため、電話でタスクを開始し、デスクトップで再開できます。
 
-1. Visit the [Copilot Workspace dashboard](https://copilot-workspace.githubnext.com) and __start a new session__ by 
-   clicking the “New Session” button. This will allow you to search for a repo and then define an ad-hoc task for it. 
-   Effectively like a draft issue. And if you select a [template repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository), you can define the requirements of a new repo that 
-   you create from that.
+1. [Copilot Workspaceダッシュボード](https://copilot-workspace.githubnext.com)にアクセスし、「New Session」ボタンをクリックして新しいセッションを開始します。これにより、リポジトリを検索し、アドホックタスクを定義できます。事実上、ドラフトの問題のようなものです。テンプレートリポジトリを選択すると、そのテンプレートから新しいリポジトリを作成するための要件を定義できます。
 
    <img src="images/general/dashboard.png" width=800 alt="Open an issue in Copilot Workspace">
 
-1. __Open a workspace session in a Codespace,__ by clicking the “Open in Codespace” button in the header bar or in the 
-   “Implementation” panel. Note that your workspace edits will be synced to the Codespace, and also, any edits you make in 
-   the Codespace are synced back to the workspace. This allows you to use VS Code/Codespaces as a companion experience for 
-   making larger edits, debugging, etc.
+1. __Codespaceでワークスペースセッションを開きます。__ ヘッダーバーまたは「Implementation」パネルの「Open in Codespace」ボタンをクリックします。ワークスペースの編集はCodespaceに同期され、Codespaceで行った編集もワークスペースに同期されます。これにより、大規模な編集、デバッグなどのためにVS Code/Codespacesを補完的な体験として使用できます。
 
-1. __Learn about ad-hoc tasks__ by visiting the [Ad-hoc Tasks](adhoc-tasks.md) page. Ad-hoc tasks are tasks that you define yourself, without the context of an issue or pull request. You can start an ad-hoc task from the Copilot Workspace dashboard, or from the repository page on GitHub.com.
+1. [Ad-hoc Tasks](adhoc-tasks.md)ページを訪れて、__アドホックタスクについて学びます。__ アドホックタスクは、問題やプルリクエストのコンテキストなしに自分で定義するタスクです。Copilot Workspaceダッシュボードから、またはGitHub.comのリポジトリページからアドホックタスクを開始できます。
